@@ -1,8 +1,14 @@
 
-clone 후 disconnect : git remote rm origin
+clone 후 disconnect : 
+  git remote -v
+  git remote rm origin(target link)
 
-delete target folder that has been cloned from origin in local repository  : git rm -r <target folder>
+Remove untracked files&directory from the working tree
+  git clean -fd
+
+delete target folder :
+  git rm -r <target folder>
 
 push local rep to remote rep : 
-#remote add origin [addr.git]
-#push origin master
+  remote add origin [addr.git]
+  push origin [branch]
