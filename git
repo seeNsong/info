@@ -2,3 +2,7 @@
 clone 후 disconnect : git remote rm origin
 
 delete target folder that has been cloned from origin in local repository  : git rm -r <target folder>
+
+push local rep to remote rep : 
+#remote add origin [addr.git]
+#push origin master
