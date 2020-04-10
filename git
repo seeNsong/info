@@ -1,2 +1,4 @@
 
 clone 후 disconnect : git remote rm origin
+
+delete target folder that cloned from origin in local repository  : git rm -r <target folder>
